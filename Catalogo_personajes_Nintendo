@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+import tkinter as tk
+from Catalago_Gui import Frame
+
+def main():
+    root = tk.Tk()  
+    root.title('Catálogo de personajes de Nintendo')
+    root.iconbitmap('imagen/cp-logo.ico')
+    root.resizable(0, 0)
+    app = Frame(root=root) 
+    app.mainloop()
+
+if __name__ == '__main__':  
+    main()
